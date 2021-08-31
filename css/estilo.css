@@ -241,6 +241,100 @@ section .articulo {
   margin-right: 30px;
 }
 
+/* Recitales */
+.articulo5 {
+  background-image: url(../img/backgroundblack3.jpg);
+  text-align: center;
+  line-height: 30px;
+  font-size: 18px;
+  border: 5px black solid;  
+  color: white;
+  margin: 30px 50% 15px 50px;
+  font-family: 'Noto Serif', serif;
+}
+
+.articulo5 h3 {
+  color: #f5f6fa;
+  font-family: 'Special Elite', cursive;
+  font-size: 35px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+
+.articulo6 {
+  background-image: url(../img/backgroundred.jpg);
+  text-align: center;
+  line-height: 30px;
+  font-size: 18px;
+  border: 5px black solid;  
+  color: white;
+  margin: 30px 50px 15px 50%;
+  font-family: 'Noto Serif', serif;
+}
+
+.articulo6 h3 {
+  color: #f5f6fa;
+  font-family: 'Special Elite', cursive;
+  font-size: 35px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+
+.imgReci {
+  margin: 2px 45px 2px 45px;
+}
+
+.imgReci:hover {
+  border:black 2px solid;
+}
+
+.h3Form {
+  color: #f5f6fa;
+  font-family: 'Special Elite', cursive;
+  font-size: 30px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.h4Form {
+  color: #f5f6fa;
+  font-family: 'Special Elite', cursive;
+  font-size: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.formulario {
+  color: #ffffff;
+  font-family: 'Noto Serif', serif;
+}
+
+.botonesForm {
+  font-family: 'Noto Serif', serif;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.botonesForm input {
+  background-color: black;
+  color: #ffffff;
+  margin: 1px 3px 10px 3px;
+  padding: 1px 5px 1px 5px;
+}
+
+.botonEnviar:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.botonReiniciar:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
 /* Footer */
 footer {
   background-color: #5c0000;
@@ -252,11 +346,6 @@ footer {
   font-family: 'Special Elite', cursive;
   padding-top: 10px;
   padding-bottom: 5px;
-}
-
-.footerInicio:hover {
-  transform: scale(1.1);
-  transition: 0.5s;
 }
 
 footer .footerFinal {
