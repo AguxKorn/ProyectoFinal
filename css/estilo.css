@@ -17,6 +17,7 @@ h1 {
   color: #f5f6fa;
   text-align: center;
   font-family: 'Special Elite', cursive;
+  font-size: 50px;
   padding-top: 18px;
 }
 
@@ -25,7 +26,6 @@ h1 {
   background-color: #450000 !important;
   font-family: 'Bebas Neue', cursive;
   font-size: 20px;
-  
 }
 
 #miNavCentro {
@@ -51,7 +51,7 @@ a:hover {
   transform: rotate(360deg);
 }
 
-/* INDEX */
+/* Index */
 .portadaIndex {
   display: flex;
   justify-content: center;
@@ -74,6 +74,15 @@ section .articulo {
   border: 2px black solid;  
   color: white;
   margin: 5px;
+  font-family: 'Noto Serif', serif;
+}
+
+.articulo h3 {
+  color: #f5f6fa;
+  font-family: 'Special Elite', cursive;
+  font-size: 35px;
+  padding-top: 10px;
+  padding-bottom: 0px;
 }
 
 .seccion2 {
@@ -84,8 +93,82 @@ section .articulo {
   padding: 20px;
 }
 
-/* FOOTER */
+.img1994 {
+  border: 8px black solid;
+}
 
+.img2021 {
+  border: 8px black solid;
+}
+
+.img1994:hover {
+  transform: scale(1.1);
+  transition: 0.8s;
+}
+
+.img2021:hover {
+  transform: scale(1.1);
+  transition: 0.8s;
+}
+
+/* Miembros */
+.articuloB {
+  border: 3px black solid;
+  background-image: url(../img/background.jpg);
+  font-family: 'Noto Serif', serif;
+  font-size: 18px;
+  color: #f5f6fa;
+  text-align: center;
+  padding: 5px auto 5px auto;
+  margin: 25px 15% 15px 15%;
+}
+
+.articuloB h3 {
+  color: #f5f6fa;
+  font-family: 'Special Elite', cursive;
+  font-size: 35px;
+}
+
+.imgB {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 25px 0px 60px 0px;
+}
+
+.imgB2 {
+  border: 3px black solid;
+}
+
+.tituloMiembros {
+  text-align: center;
+  font-family: 'Special Elite', cursive;
+  font-size: 35px;
+  color: #f5f6fa;
+  margin-bottom: 20px;
+}
+
+.card-body {
+  background-image: url(../img/backgroundblack.jpg);
+}
+
+.card-body:hover {
+  transform: scale(1.1);
+  transition: 1.5s;
+}
+
+.card-title {
+  font-family: 'Special Elite', cursive;
+  color: #ee1010;
+  font-size: 25px;
+}
+
+.card-text {
+  font-family: 'Noto Serif', serif;
+  color: #f5f6fa;
+}
+
+/* Footer */
 footer {
   background-color: #5c0000;
   text-align: center;
@@ -131,7 +214,6 @@ footer .footerRedes {
   }
 }
 
-
 .item1:hover {
   transform: scale(1.6);
   transition: 0.5s;
@@ -168,9 +250,11 @@ footer .footerRedes {
   transition: 0.5s;
 }
 
-/* MEDIA QUERIES */
+/* Media Queries */
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
+
+  /* Footer */
   footer {
     text-align: center;
   }
@@ -191,5 +275,11 @@ footer .footerRedes {
   .footerRedes img {
     width: 40px;
     height: 40px;
+  }
+  
+  /* Miembros */
+  .articuloB {
+    padding: 5px auto 5px auto;
+    margin: 25px auto 10px auto;
   }
 }
