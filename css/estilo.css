@@ -51,6 +51,11 @@ a:hover {
   transform: rotate(360deg);
 }
 
+/* Articulos General */
+strong {
+  background-color: red;
+}
+
 /* Index */
 .portadaIndex {
   display: flex;
