@@ -1,6 +1,6 @@
 /* Reset */
 * {
-  Margin:0;
+  margin:0;
   padding:0;
 }
 
@@ -12,7 +12,6 @@ body {
   background-size: cover;
 }
 
-/* Titulos */
 h1 {
   color: #f5f6fa;
   text-align: center;
@@ -153,6 +152,15 @@ section .articulo {
   margin-bottom: 20px;
 }
 
+.cartas1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.cartas2 {
+  padding-bottom: 20px;
+}
+
 .card-body2 {
   background-image: url(../img/backgroundblack.jpg);
 }
@@ -190,6 +198,11 @@ section .articulo {
   transition: 0.5s;
 }
 
+.album13 {
+  margin-left: 51%;
+  margin-right: 49%;
+}
+
 .tituloDisco {
   text-align: center;
   font-family: 'Special Elite', cursive;
@@ -204,7 +217,7 @@ section .articulo {
   text-align: center;
   font-family: 'Special Elite', cursive;
   color: #f5f6fa;
-  margin-top: 35px;
+  margin-top: 15px;
   margin-bottom: 5px;
 }
 
@@ -419,33 +432,145 @@ footer .footerRedes {
 /* Media Queries */
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-
-  /* Footer */
-  footer {
-    text-align: center;
+  /* General */
+  h1 {
+    font-size: 35px;
+  }
+  
+  /* Index */
+  .seccion1 {
+    padding-top: 10px;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
   }
 
-  footer h3 {
+  .seccion2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2px;
+    padding: 2px;
+  }
+
+  /* Miembros */
+  .articuloB {
+    padding: 5px auto 5px auto;
+    margin: 5px 5% 5px 5%;
+  }
+
+  .cartas1 {
+    padding-bottom: 1px;
+  }
+  
+  .cartas2 {
+    padding-bottom: 10px;
+  }
+
+  /* Discografía */
+  .card-body3 {
+    background-image: url(../img/backgroundblack2b.jpg);
+  }
+
+  .albums {
+    padding-left: 39px;
+    padding-right: 45px;
+  }
+  .album13 {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+  }
+
+  /* Multimedia */
+ .seccionGaleria {
+   padding-top: 10px;
+   padding-bottom: 10px;
+ }
+
+ .fila1 {
+   margin-top: 0px;
+   margin-bottom: 0px;
+   padding-top: 0px;
+   padding-bottom: 0px;
+ }
+
+ .fila2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.fila3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.fila4 {
+  margin: 1rem;
+}
+.video1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+}
+
+.video2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+.seccionGaleria:hover {
+  transition: 0.5s;
+} 
+
+  /* Recitales */
+  .articulo5 {
+    border: 2px black solid;
+    margin: 10px 5% 5px 5%;
+  }
+  
+  .articulo5 h3 {
     font-size: 30px;
   }
 
+  .articulo6 {
+    border: 2px black solid;
+    margin: 10px 5% 5px 5%;
+  }
+  
+  .articulo6 h3 {
+    font-size: 30px;
+  }
+
+  .imgReci {
+    margin: 2px 5px 10px 5px;
+  }
+
+  .formularioCaja {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  /* Footer */
+  footer h3 {
+    font-size: 33px;
+  }
+
   footer h5 {
-    font-size: 15px;
+    font-size: 18px;
   }
 
   .footerRedes {
     display: flex;
     justify-content: center;
-  }
-
-  .footerRedes img {
-    width: 40px;
-    height: 40px;
+    align-items: center;
+    flex-wrap: wrap;
   }
   
-  /* Miembros */
-  .articuloB {
-    padding: 5px auto 5px auto;
-    margin: 25px auto 10px auto;
-  }
 }

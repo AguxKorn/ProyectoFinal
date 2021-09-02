@@ -21,8 +21,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
-     <!-- AOS -->
-     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- Mis Archivos -->
     <link rel="shortcut icon" href="../img/logo.png">
     <link rel="stylesheet" href="../css/estilo.css">
@@ -30,9 +30,7 @@
 
 <body>
     <header>
-      <div data-aos="zoom-in">
-        <h1>Discografía principal y éxitos</h1>
-      </div>
+        <h1 class="animate__animated animate__slideInDown">Discografía principal y éxitos</h1>
 
       <div class="conteiner-fluid">
           <div class="row">
@@ -61,7 +59,7 @@
     <br>
     <section class="conteiner-fluid">
         <div class="row justify-content-center">
-            <div class="col-lg-8 col-md-12 col-xs-12">
+            <div class="col-lg-8 col-md-12 col-xs-12 albums">
                 <div class="row row-cols-1 row-cols-md-3">
                     <div class="col mb-4">
                       <div class="card h-100">
@@ -188,7 +186,7 @@
         </div>
         <div class="row row-cols-1 row-cols-md-1">
             <div class="row justify-content-center">
-                <div class="col-lg-3 col-md-12 col-xs-12">
+                <div class="col-lg-3 col-md-12 col-xs-12 album13">
                     <div class="col mb-4">
                         <div class="card h-100">
                           <img src="../img/13_TN.jpg" class="card-img-top img-card" alt="album13">
@@ -204,14 +202,12 @@
         </div>
     </section>
 
-    <div data-aos="fade-down-right">
       <div class="tituloDisco">
         <h3>Primer Demo, MTV Unplugged y Grandes Éxitos</h3>
       </div>
-    </div>
     <section class="conteiner-fluid">
         <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-10 col-md-12">
+            <div class="col-lg-4 col-md-10 col-xs-12">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -262,9 +258,7 @@
     <br>
     <footer class="footer">
       <div class="footerInicio">
-          <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-              <h3>FollowTheRedes</h3>
-          </div>
+        <h3 class="animate__animated animate__backInUp">FollowTheRedes</h3>
       </div>
           <div class="footerRedes">
               <div><a href="https://www.kornofficial.com" target="_blank"> <img class="item1" src="../img/corn.png" alt="" width="60" height="55"></a></div>
@@ -286,10 +280,5 @@
     <!-- BOOTSTRAP -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-    <!-- AOS -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
 </body>
 </html>

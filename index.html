@@ -21,8 +21,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
-    <!-- AOS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- Mis Archivos -->
     <link rel="shortcut icon" href="img/logo.png">
     <link rel="stylesheet" href="css/estilo.css">
@@ -31,10 +31,8 @@
 <body>
 
     <header>
-            <div data-aos="zoom-in">
-                <h1>Korn Freaks Argentina - Sitio Web</h1>
-            </div>
-    
+                <h1 class="animate__animated animate__slideInDown">Korn Freaks Argentina - Sitio Web</h1>
+            
             <div class="conteiner-fluid">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-xs-12">
@@ -64,37 +62,27 @@
         <img src="./img/portadaInicial.jpg" class="img-fluid" alt="portadaInicio" width="900" height="350">
     </section>
     <section class="seccion1">
-        <div data-aos="fade-right">
-            <div class="articulo">
+            <div class="articulo animate__animated animate__backInLeft">
                 <h3>Korn 1994</h3>
                 Korn es una banda estadounidense, <strong>creadora del género "Nü Metal"</strong>, formada en el año 1993 en Bakersfield, California. La banda fue fundada por Shaffer "Munky", Arvizu "Fieldy" y David Silveria, que recientemente se habían separado de su banda anterior "LAPD". Luego de reclutar a Welch "Head" y Jonathan Davis, <strong>la banda se convirtió en KoЯn, que significa 'Maíz' en ingles pero con una K y una destacable R inversa.</strong> Korn lanzo sus dos primeros cd's, uno llamado "Korn" en 1994 y el segundo "Life is Peachy" en 1996. Pero realmente <strong>llegaron a la fama y ser muy reconocidos por su estilo original, tanto en su país natal como internacionalmente,</strong> con su tercer y cuarto cd: "Follow The Leader" en 1998 e "Issues" en 1999, donde quedaría <strong>marcado en la historia musical</strong> de los 90'.
             </div>
-        </div>
-        <div data-aos="fade-left">
-            <div class="articulo">
+            <div class="articulo animate__animated animate__backInRight">
                 <h3>Korn 2021</h3>
                 Korn en la actualidad sigue dando de qué hablar, después de sus notables cambios a través de las décadas <strong>siguen activos</strong>, lanzando nuevos discos con un total de <strong>13 cd’s principales a la fecha.</strong> "Head", uno de sus guitarristas renuncio a la banda en el 2005 para retornar en el 2013, y David (baterista) renuncio en el 2006 para querer volver el mismo 2013 y fue rechazado, ya que Ray Luzier era el nuevo miembro oficial desde el 2009. <strong>Korn fue evolucionando su estilo original, pero de manera ascendente y siempre dejando ese lado oscuro y potente que es inamovible.</strong> Los fans de Korn en la actualidad no suelen tener 15 años como cuando conocieron la banda, la mayoría son de la generación de los 90’ o los 00’. Aun así, <strong>Korn siempre que pisa un estadio es solo para llenarlo y explotarlo</strong> con sus clásicos, y uno de <strong>los más pesados pero adrenalinicos shows que existen.</strong>
             </div>
-        </div>
     </section>
     <section class="seccion2">
-        <div data-aos="fade-right">
             <div class="img1994">
                 <img src="./img/korn1994.jpg" class="img-fluid" alt="korn1994" width="600" height="350">
             </div>
-        </div>
-        <div data-aos="fade-left">
             <div class="img2021">
                 <img src="./img/korn2021.jpg" class="img-fluid" alt="korn2021" width="600" height="350">
             </div>
-        </div>
     </section>
 
     <footer>
                 <div class="footerInicio">
-                    <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-                        <h3>FollowTheRedes</h3>
-                    </div>
+                        <h3 class="animate__animated animate__backInUp">FollowTheRedes</h3>
                 </div>
                     <div class="footerRedes">
                         <div><a href="https://www.kornofficial.com" target="_blank"> <img class="item1" src="img/corn.png" alt="" width="60" height="55"></a></div>
@@ -116,10 +104,5 @@
     <!-- BOOTSTRAP -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-    <!-- AOS -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
 </body>
 </html>

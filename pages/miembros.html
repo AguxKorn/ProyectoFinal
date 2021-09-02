@@ -21,8 +21,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
-     <!-- AOS -->
-     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <!-- Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- Mis Archivos -->
     <link rel="shortcut icon" href="../img/logo.png">
     <link rel="stylesheet" href="../css/estilo.css">
@@ -30,9 +30,7 @@
 
 <body>
   <header>
-    <div data-aos="zoom-in">
-      <h1>Miembros y Pasado</h1>
-    </div>
+      <h1 class="animate__animated animate__slideInDown">Miembros y Pasado</h1>
 
     <div class="conteiner-fluid">
         <div class="row">
@@ -60,39 +58,29 @@
   </header>
 
     <section>
-      <div data-aos="flip-right"
-      data-aos-easing="ease-out-cubic"
-      data-aos-duration="2000">
-        <div class="articuloB">
+        <div class="articuloB animate__animated animate__fadeInUp">
           <h3>Miembros Actuales:</h3>
           La banda está formada por <strong>5 miembros</strong>: <strong>Munky</strong> en la Guitarra, <strong>Jonathan</strong> en la Voz, <strong>Fieldy</strong> en el bajo, <strong>Ray</strong> en la batería y <strong>Brian</strong> en la segunda Guitarra junto con los coros principales. Korn <strong>tuvo desde 3 miembros en el 2006</strong> con la renuncia de Brian y David (y aun así lanzaron el cd "Untitled", con la ayuda de <strong>Joey Jordison</strong>, ex miembro de <strong>Slipknot</strong> en la batería, para las grabaciones) hasta en la actualidad <strong>volver a ser cinco otra vez</strong> como cuando se fundó la banda.
         </div>
-      </div>
         <div class="imgB">
           <img src="../img/korn2007.jpg" class="img-fluid imgB2" alt="korn2007">
         </div>
           
-        <div data-aos="flip-left"
-         data-aos-easing="ease-out-cubic"
-         data-aos-duration="2000">
-           <div class="articuloB">
+        <div class="articuloB animate__animated animate__fadeInUp">
              <h3>Ex Miembro:</h3>
              David Silveria <strong>fue miembro</strong> de la banda <strong>"LAPD"</strong> para después ser uno de los <strong>tres fundadores de Korn</strong> en el año 1993. David <strong>renuncio a Korn</strong> en el 2006, un año después de la <strong>renuncia de Brian.</strong> Años después de estar desaparecido, en el 2013 dio su <strong>polémica presencia</strong> para querer integrarse a Korn otra vez después de que Brian había retornado a la banda. <strong>Al ser rechazado por Korn, especialmente por Jonathan</strong>, David no tardo en querer <strong>demandar a Korn</strong> y hacer que <strong>muchos fans estén en contra de la misma banda.</strong> Después de unos años de tranquilidad, David <strong>sigue activo</strong> y es miembro de su banda actual <strong>Breaking in Sequence.</strong>
           </div>
-        </div>
         <div class="imgB">
           <img src="../img/miembro6.jpg" class="img-fluid imgB2" alt="david">
         </div>
     </section>
 
       <section class="conteiner-fluid">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center cartas1">
             <div class="col-lg-11 col-md-12 col-xs-12">
-              <div data-aos="zoom-in-down">
                 <div class="tituloMiembros">
                   <h2>¿Como esta formado Korn?</h2>
                 </div>
-              </div>
                 <div class="card-deck">
                     <div class="card">
                       <img src="../img/miembro2.jpg" class="card-img-top" alt="munky">
@@ -118,9 +106,8 @@
                   </div>
             </div>
         </div>
-        <br>
         <div class="row justify-content-center">
-            <div class="col-lg-8 col-md-9 col-xs-12">
+            <div class="col-lg-8 col-md-9 col-xs-12 cartas2">
                 <div class="card-deck">
                     <div class="card">
                       <img src="../img/miembro4.png" class="card-img-top" alt="ray">
@@ -140,13 +127,9 @@
             </div>
         </div>
       </section>
-    <br>
-
     <footer class="footer">
       <div class="footerInicio">
-          <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-              <h3>FollowTheRedes</h3>
-          </div>
+              <h3 class="animate__animated animate__backInUp">FollowTheRedes</h3>
       </div>
           <div class="footerRedes">
               <div><a href="https://www.kornofficial.com" target="_blank"> <img class="item1" src="../img/corn.png" alt="" width="60" height="55"></a></div>
@@ -168,10 +151,5 @@
     <!-- BOOTSTRAP -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-    <!-- AOS -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
 </body>
 </html>
