@@ -65,9 +65,9 @@ strong {
 .seccion1 {
   padding-top: 10px;
   padding-bottom: 5px;
-  margin: 8px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 section .articulo {
@@ -77,7 +77,8 @@ section .articulo {
   font-size: 18px;
   border: 2px black solid;  
   color: white;
-  margin: 5px;
+  margin: 30px 60px 15px 60px;
+  padding: 1em;
   font-family: 'Noto Serif', serif;
 }
 
@@ -93,7 +94,7 @@ section .articulo {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-  margin: 10px;
+  margin: 5px;
   padding: 20px;
 }
 
@@ -430,7 +431,6 @@ footer .footerRedes {
 }
 
 /* Media Queries */
-
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   /* General */
   h1 {
@@ -439,20 +439,38 @@ footer .footerRedes {
   
   /* Index */
   .seccion1 {
-    padding-top: 10px;
-    margin: 2px;
+    padding-top: 15px;
+    padding-bottom: 5px;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
+  }
+  
+  section .articulo {
+    font-size: 20px;
+    margin: 15px 15px 5px 15px;
+    padding: 5px;
   }
 
   .seccion2 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 2px;
     padding: 2px;
+  }
+
+  .articulo h3 {
+    font-size: 30px;
+  }
+
+  .img1994 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  .img2021 {
+    margin-top: 5px;
+    margin-bottom: 10px;
   }
 
   /* Miembros */
@@ -461,12 +479,21 @@ footer .footerRedes {
     margin: 5px 5% 5px 5%;
   }
 
+  .imgB {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
   .cartas1 {
     padding-bottom: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
   }
   
   .cartas2 {
-    padding-bottom: 10px;
+    padding-bottom: 1px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   /* Discografía */
@@ -478,10 +505,20 @@ footer .footerRedes {
     padding-left: 39px;
     padding-right: 45px;
   }
+
   .album13 {
     margin-left: auto;
     margin-right: auto;
     padding-left: 40px;
+  }
+
+  #carouselExampleIndicators {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .spotify {
+    margin: 2px
   }
 
   /* Multimedia */
@@ -514,6 +551,7 @@ footer .footerRedes {
 .fila4 {
   margin: 1rem;
 }
+
 .video1 {
   display: flex;
   flex-wrap: wrap;
@@ -525,6 +563,7 @@ footer .footerRedes {
   flex-wrap: wrap;
   margin-top: 5px;
 }
+
 .seccionGaleria:hover {
   transition: 0.5s;
 } 
@@ -532,7 +571,8 @@ footer .footerRedes {
   /* Recitales */
   .articulo5 {
     border: 2px black solid;
-    margin: 10px 5% 5px 5%;
+    margin: 10px 8% 5px 8%;
+    padding: 5px;
   }
   
   .articulo5 h3 {
@@ -541,7 +581,8 @@ footer .footerRedes {
 
   .articulo6 {
     border: 2px black solid;
-    margin: 10px 5% 5px 5%;
+    margin: 10px 8% 5px 8%;
+    padding: 5px;
   }
   
   .articulo6 h3 {
@@ -549,12 +590,12 @@ footer .footerRedes {
   }
 
   .imgReci {
-    margin: 2px 5px 10px 5px;
+    margin: 2px 10px 10px 10px;
   }
 
   .formularioCaja {
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 10%;
+    margin-left: 10%;
   }
   
   /* Footer */
@@ -573,4 +614,142 @@ footer .footerRedes {
     flex-wrap: wrap;
   }
   
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+   /* Index */
+   .seccion1 {
+    padding-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .seccion2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5px 2px 10px 2px;
+    padding: 1px;
+  }
+
+  .img1994 {
+    margin-bottom: 5px;
+  }
+
+  .img2021 {
+    margin-top: 5px;
+  }
+
+   /* Miembros */
+   .articuloB {
+    padding: 5px auto 5px auto;
+    margin: 10px 2% 10px 2%;
+  }
+
+  .album13 {
+    margin-left: 52%;
+    margin-right: 48%;
+    padding-left: 10px;
+  }
+
+  /* Multimedia */
+  .seccionGaleria {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .fila1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+ 
+  .fila2 {
+   margin-top: 0px;
+   margin-bottom: 0px;
+   padding-top: 0px;
+   padding-bottom: 0px;
+ }
+ 
+ .fila3 {
+   margin-top: 0px;
+   margin-bottom: 0px;
+   padding-top: 0px;
+   padding-bottom: 0px;
+ }
+
+ .h3Tablet {
+   margin-top: 50px;
+   margin-bottom: 0px;
+ }
+
+ .fila4 {
+  margin: 1rem;
+}
+
+.video1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.video2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+ /* Recitales */
+ .articulo5 {
+  border: 3px black solid;
+  margin: 25px 5% 15px 5%;
+  font-size: 20px;
+}
+
+.articulo5 h3 {
+  font-size: 40px;
+}
+
+.articulo6 {
+  border: 3px black solid;
+  margin: 25px 5% 15px 5%;
+  font-size: 20px;
+}
+
+.articulo6 h3 {
+  font-size: 40px;
+}
+
+.imgReci {
+  margin-top: 1px; 
+  margin-bottom: 10px;
+}
+
+.h3Form {
+  font-size: 35px;
+}
+
+.h4Form {
+  font-size: 30px;
+}
+
+.formulario {
+  font-size: 20px;
+}
+
+.form-control {
+  font-size: 18px;
+}
+
+.botonesForm {
+  font-size: 23px;
+}
+
 }
